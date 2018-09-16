@@ -31,6 +31,7 @@
 #ifndef OS_FUNC_H
 #define OS_FUNC_H 1
 #include <stdarg.h>
+#include <sys/types.h>
 
 /* os_func.c */
 char *funchook_strlcpy(char *dest, const char *src, size_t n);
