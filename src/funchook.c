@@ -188,6 +188,11 @@ void funchook_log(funchook_t *funchook, const char *fmt, ...)
     va_end(ap);
 }
 
+const char *funchook_error_message(funchook_t *funchook)
+{
+    return funchook->error_message;
+}
+
 void funchook_set_error_message(funchook_t *funchook, const char *fmt, ...)
 {
     va_list ap;
