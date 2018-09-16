@@ -9,7 +9,6 @@
 /config.status
 /configure
 /src/Makefile
-/src/config.h
 /src/config.h.in
 /win32/.vs
 /win32/Debug
